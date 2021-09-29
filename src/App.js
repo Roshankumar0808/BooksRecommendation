@@ -86,6 +86,7 @@ export default function App() {
         ))}
       </div>
       <hr />
+      {/* HR */}
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {bookDB[selectedGenre].map((book) => (

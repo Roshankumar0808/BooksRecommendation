@@ -13,10 +13,7 @@ const Footer = () => (
     </a>
   </footer>
 );
-// ReactDOM.render(
-//   [<App key="1" />, <Footer key="2" />],
-//   document.getElementById("root")
-// );
+
 ReactDOM.render(
   <StrictMode>
     <App key="1" />, <Footer key="2" />
@@ -24,4 +21,3 @@ ReactDOM.render(
   </StrictMode>,
   rootElement
 );
-
